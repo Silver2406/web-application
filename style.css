@@ -1,0 +1,57 @@
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+
+#heading {
+	position: absolute;
+	left: 720px;
+    top: 300px;
+    color: fuchsia;
+
+
+}
+
+
+form[name="User-login"] {
+	position: absolute;
+	left: 734px;
+    top: 380px;
+}
+form[name="User-Password"] {
+	position: absolute;
+	left: 734px;
+    top: 400px;
+
+}
+button{
+    background: linear-gradient(to top, fuchsia, aqua);
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid;
+    position: relative;
+    top: 20px;
+    left: 20px
+}
+
+
+ .gif-background {
+            position: absolute;
+            top: 200px;
+            left: 600px;
+            width: 400px;
+            height: 400px;
+            background-image: url('static/images/Institute.gif');
+
+}
+
+a{
+position: relative;
+left: 30px;
+top: 10px;
+
+}
