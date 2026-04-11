@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Medical cross</title>
+
+    <link rel= "stylesheet"  href= "{{url_for('static', filename='css/feedback.css')}}">
+      <link rel="icon" href="static/favicon/snake.svg">
+          <link rel= "stylesheet"  href= "{{url_for('static', filename='css/bottom_panel.css')}}">
+
+
+</head>
+<body>
+<div class="text">
+<p>
+  Через форму обратной связи Вы можете <br>связаться со службой техподдержки.
+</p>
+</div>
+
+<div id="text_1">
+ <label>Причины обращения:</label>
+</div>
+
+<select name="category" class="category_tree" id="category">
+<option class="questions" value="21">Вопросы по процессу обучения </option>
+    <option class="questions" value="22">Административные вопросы</option>
+    <option class="questions" value="23">Технические вопросы</option>
+</select>
+
+
+<div id="text_2">
+<label>Группа</label>
+    <label><input type="text" name="group"></label>
+</div>
+
+
+<div id="text_3">
+<label> Ф.И.О</label>
+    <label><input type="text" name="Fullname"></label>
+</div>
+
+<div id="text_4">
+<label> номер договора</label>
+    <label><input type="text" name="contract number"></label>
+</div>
+
+<div id="text_5">
+<label> электронная почта</label>
+    <label><input type="text" name="Email"></label>
+</div>
+
+<div id="text_6">
+<label> телефон</label>
+    <label><input type="text" name="Telephone"></label>
+</div>
+
+<div id="text_7">
+<label> Тема:</label>
+    <label><input type="text" name="topic"></label>
+</div>
+
+<div id="text_8">
+<label> Сообщение:</label>
+    <label><input type="text" name="message" ></label>
+<form>
+ <button type="submit">Отправить</button>
+
+
+
+</form>
+    </div>
+<div id="footer-row">
+<div class="organization">
+    <b>Medical cross</b>
+<span class="vr">/</span>
+    тел: 8-916-231-47-89
+    <!--# contacts-->
+
+    <div id="contacts">
+        <div class="copyright">
+        @Medical cross 2026
+   </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+</html>

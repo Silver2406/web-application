@@ -1,15 +1,22 @@
 body {
     position: relative;
     min-height: 100vh;
-}
+    background: mintcream;
 
+}
+*{
+margin: 0px;
+padding: 0px;
+
+}
 
 
 #heading {
 	position: absolute;
 	left: 720px;
     top: 300px;
-    color: fuchsia;
+    color: 	#ff0000;
+    opacity: 0.65;
 
 
 }
@@ -18,40 +25,66 @@ body {
 form[name="User-login"] {
 	position: absolute;
 	left: 734px;
-    top: 380px;
+    top: 370px;
 }
 form[name="User-Password"] {
 	position: absolute;
 	left: 734px;
     top: 400px;
 
+
+
 }
 button{
-    background: linear-gradient(to top, fuchsia, aqua);
-    color: white;
-    padding: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border: 2px solid;
-    position: relative;
-    top: 20px;
-    left: 20px
+  position: relative;
+  top: 10px;
+  left: 30px;
+  border: 0;
+  border-radius: 5px;
+  background: aqua;
+  padding: 8px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+
 }
 
 
- .gif-background {
-            position: absolute;
-            top: 200px;
-            left: 600px;
-            width: 400px;
-            height: 400px;
-            background-image: url('static/images/Institute.gif');
+
+
+
+#footer{
+background: #dcdcdc;
+padding:40px 20px;
+position: relative;
+top: 630px;
+
+}
+ .org{
+  position:relative;
+  bottom: 20px;
+
+}
+ .copyright{
+   position: fixed;
+   top:650px;
+   left: 1100px;
+
+   padding: 0px 0px;
+
+
 
 }
 
 a{
-position: relative;
-left: 30px;
-top: 10px;
+text-decoration:none;
 
+}
+
+
+img{
+   position: fixed;
+   height: 200px;
+   width: 300px;
+   background-color:mintcream;
+   mix-blend-mode: multiply;
 }

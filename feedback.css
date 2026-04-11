@@ -1,0 +1,138 @@
+body{
+    background: mintcream;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.25em;
+
+
+ .text{
+   position: fixed;
+   left: 900px;
+   top: 30px;
+}
+
+#category{
+   position: fixed;
+   left: 470px;
+   top: 50px;
+
+}
+#text_1{
+position: fixed;
+left: 320px;
+top: 49px;
+
+}
+#text_2{
+position: fixed;
+left: 385px;
+top: 90px;
+
+}
+input[type="text"]{
+position: fixed;
+left: 451px;
+top: 90px;
+padding: 0px 119px;
+
+}
+#text_3{
+position: fixed;
+left: 385px;
+top: 130px;
+}
+
+input[name="Fullname"]{
+position: fixed;
+left: 451px;
+top:130px;
+padding: 0px 119px;
+}
+
+#text_4{
+position: fixed;
+left: 325px;
+top:160px;
+}
+
+input[name="contract number"]{
+position: fixed;
+left: 451px;
+top:160px;
+}
+
+#text_5{
+position: fixed;
+left: 320px;
+top:190px;
+}
+
+input[name="Email"]{
+position: fixed;
+left: 451px;
+top:190px;
+}
+
+#text_6{
+position: fixed;
+left: 385px;
+top: 220px;
+}
+
+input[name="Telephone"]{
+position: fixed;
+left: 451px;
+top:220px;
+padding: 0px 119px;
+}
+
+#text_7{
+position: fixed;
+left: 410px;
+top:250px;
+}
+
+input[name="topic"]{
+position: fixed;
+left: 451px;
+top:250px;
+}
+
+#text_8{
+position: fixed;
+left: 320px;
+top:310px;
+}
+
+input[name="message"]{
+position: fixed;
+left: 451px;
+top:310px;
+padding: 50px 50px;
+}
+
+button{
+  position: fixed;
+  top: 450px;
+  left: 630px;
+  border: 0;
+  border-radius: 5px;
+  background: 	aqua;
+
+  padding: 4px 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#footer-row{
+background: #dcdcdc;
+padding:40px 800px;
+position: fixed;
+top: 660px;
+right: 0px;
+
+}
+ .organization{
+   position:fixed;
+   bottom: 45px;
+   left: 118px;
+}

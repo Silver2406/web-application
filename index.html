@@ -1,0 +1,63 @@
+<!--suppress ALL -->
+<html lang="ru">
+ <head>
+
+ <meta charset="utf-8">
+     <title>Medical cross</title>
+     <link rel= "stylesheet"  href= "{{url_for('static', filename='css/style.css')}}">
+     <link rel="icon" href="static/favicon/snake.svg">
+
+
+ </head>
+<body>
+
+
+
+<div id="heading">
+ <h1>Авторизация</h1>
+</div>
+ <div>
+  <form name="User-login" action="/greet" method="POST">
+  <input type="text" name="username" placeholder="логин/email" autofocus>
+</form>
+ </div>
+<div>
+<form name="User-Password" action="/greet" method="POST">
+  <input type="text" name="password" placeholder="пароль" autofocus>
+    <div class="center">
+        <a href="{{url_for('password_reset')}}">Забыли пароль?</a>
+    </div>
+
+    <button type="submit">Войти</button>
+</form>
+
+    <img src="static/images/scales.png" >
+
+</div>
+
+<div id="footer">
+<div class="org">
+    <b>Medical cross</b>
+<span class="vr">/</span>
+    тел: 8-916-231-47-89
+    <!--# contacts-->
+
+    <div id="contacts">
+        <div class="copyright">
+        @Medical cross 2026
+                     <span class="vr">/</span>
+            <a href={{url_for('feedback')}}>обратная связь</a>
+
+</div>
+</div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+
+</html>
